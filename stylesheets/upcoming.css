@@ -89,15 +89,15 @@ body {
     flex: 1;
 }
 .responsive-video {
-    width: 100%; 
-    max-width: 800px; 
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    width: 100%; /* Make the video take up the full width of its container */
+    max-width: 800px; /* Optional: Set a maximum width if desired */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Prevent any inline spacing issues */
+    margin: 0 auto; /* Center the video horizontally */
 }
 
 .video-box {
-    text-align: center; 
+    text-align: center; /* Optional: Align the video container if needed */
     margin-top: 20px;
 }
 
@@ -275,6 +275,7 @@ body {
 
 
 /* Heavily Anticipated  */
+
 .heavily-anticipated {
     padding: 30px 15px;
     background: var(--background-dark);
@@ -304,7 +305,7 @@ body {
     font-size: clamp(1rem, 3vw, 1.2rem);
 }
 
-/* Slider  */
+/* Slider Container */
 .slider-container {
     position: relative;
     width: 100%;
@@ -350,7 +351,7 @@ body {
     right: 10px;
 }
 
-/* Mobile */
+/* Mobile-specific styles */
 @media (max-width: 768px) {
     .grid-item {
         flex: 0 0 100%;
@@ -366,7 +367,7 @@ body {
     }
 }
 
-/* Tablets */
+/* Tablet and larger screens */
 @media (min-width: 769px) {
     .grid-container {
         display: grid;
@@ -397,6 +398,30 @@ body {
     font-size: clamp(0.875rem, 2.5vw, 1rem);
     text-align: center;
 }
+
+/* Right box effects */
+.right-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.right-box .video-box {
+    transition: transform 0.3s ease;
+}
+
+.right-box:hover .video-box {
+    transform: scale(1.02);
+}
+
+.description-box {
+    transition: background-color 0.3s ease;
+    padding: 15px;
+}
+
+.right-box:hover .description-box {
+    background: rgba(255, 255, 255, 0.15);
+}
+
 
 
 
