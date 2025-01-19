@@ -260,7 +260,9 @@
   <div class="trending-section">
     <h3>This week</h3>
     <div class="trending-wrapper">
-      <button class="nav-arrow prev"></button>
+      <button class="nav-arrow prev" aria-label="Previous week's games">
+          <i class="fas fa-chevron-left"></i>
+      </button>
       <div class="trending-grid" id="this-week">
         <div class="game-card">
           <div class="game-image">
@@ -433,7 +435,9 @@
         </div>
 
       </div>
-      <button class="nav-arrow next"></button>
+      <button class="nav-arrow next" aria-label="Next week's games"> 
+          <i class="fas fa-chevron-right"></i>
+      </button>
     </div>
   </div>
 
@@ -441,7 +445,9 @@
   <div class="trending-section">
     <h3>All the time</h3>
     <div class="trending-wrapper">
-      <button class="nav-arrow prev"></button>
+      <button class="nav-arrow prev" aria-label="Previous all-time games">
+        <i class="fas fa-chevron-left"></i>
+      </button>
       <div class="trending-grid" id="all-time">
         <div class="game-card">
           <div class="game-image">
@@ -613,7 +619,9 @@
           </div>
         </div>
       </div>
-      <button class="nav-arrow next"></button>
+      <button class="nav-arrow next" aria-label="Next all-time games">
+        <i class="fas fa-chevron-right"></i>
+      </button>
     </div>
     <button class="see-more" onclick="window.location.href='404error.html';">See More</button>
   </div>
