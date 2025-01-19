@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Store</title>
+    <link rel="stylesheet" href="./stylesheets/periphals.css">
+    <link rel="stylesheet" href="./stylesheets/header.css">
+    <link rel="stylesheet" href="./stylesheets/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./javascripts/navbar.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <div class="header-container">
+                <div class="logo">
+                    <img src="./image/logo/logo.png" alt="Logo">
+                </div>
+    
+                <nav class="main-nav">
+                    <div class="nav-left">
+                        <a href="index.html" class="nav-link active">Home</a>
+                        <a href="upcoming.html" class="nav-link">Upcoming</a>
+                        <div class="dropdown">
+                            <a href="#" class="nav-link">Accessories <i class="fas fa-chevron-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="consoles.html">Gaming Consoles</a>
+                                <a href="periphals.html">Gaming Peripherals</a>
+                            </div>
+                        </div>
+                        <a href="games.html" class="nav-link">Games</a>
+                        <a href="f&q.html" class="nav-link">FAQs</a>
+                        <a href="about.html" class="nav-link">About Us/Contact</a>
+                    </div>
+    
+                    <div class="search-container">
+                        <input type="text" class="search-input" placeholder="Search...">
+                        <button class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Mobile search bar -->
+                <div class="mobile-search-container">
+                    <input type="text" class="search-input" placeholder="Search...">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+    
+                <div class="user-actions">
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    <button class="user-btn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                </div>
+    
+                <button class="hamburger-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav">
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <ul class="mobile-nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upcoming.html">Upcoming</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="consoles.html">Consoles</a></li>
+                <li><a href="periphals.html">Gaming peripherals</a></li>
+                <li><a href="f&q.html">Q & A</a></li>
+                <li><a href="about.html">About/Contact Us</a></li>
+            </ul>
+
+            <div class="mobile-nav-actions">
+                <a href="404error.html" class="mobile-action-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    Shopping Cart
+                </a>
+                <a href="404error.html" class="mobile-action-btn">
+                    <i class="fas fa-user"></i>
+                    My Profile
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Essential -->
+        <section class="essentials">
+            <div class="container">
+                <h2>Essentials</h2>
+                <div class="essential-items">
+                    <div class="essential-item">
+                        <img src="./image/periphals/keyboard.png" alt="Keyboards">
+                        <p>Keyboards</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/monitor.jpg" alt="Monitors">
+                        <p>Monitors</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/headset.png" alt="Headsets">
+                        <p>Headsets</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/mouse.webp" alt="Mouses">
+                        <p>Mouses</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/vrbox.jpg" alt="VR">
+                        <p>VR</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/speakers.jpg" alt="Speakers">
+                        <p>Speakers</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/cables.jpeg" alt="Cables">
+                        <p>Cables</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/coolingfan.jpeg" alt="Cooling Fans">
+                        <p>Cooling Fans</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/earphone.png" alt="Earphones">
+                        <p>Earphones</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/glases.jpg" alt="Glases">
+                        <p>Glases</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/pendrives.webp" alt="Pendrives">
+                        <p>Pendrives</p>
+                    </div>
+                    <div class="essential-item">
+                        <img src="./image/periphals/powersupply.jpg" alt="Powersupply">
+                        <p>Powersupplies</p>
+                    </div>
+                </div>
+                <button class="see-more-btn" onclick="location.href='404error.html';">See More</button>
+            </div>
+        </section>
+        
+
+        <section class="hot-deals">
+            <h2>Hot Deals</h2>
+            <div class="deals-slider">
+              <div class="deals-wrapper">
+                
+                <div class="deal-card">
+                    <div class="deal-content">
+                      <img src="./image/periphals/coolingpad.webp" alt="Product">
+                      <span class="discount-badge">20% Off</span>
+                      <div class="deal-info">
+                        <h3>Product Title</h3>
+                        <p>Product Description</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="deal-card">
+                  <div class="deal-content">
+                    <img src="./image/periphals/headset.png" alt="Product">
+                    <span class="discount-badge">20% Off</span>
+                    <div class="deal-info">
+                      <h3>Product Title</h3>
+                      <p>Product Description</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="deal-card">
+                    <div class="deal-content">
+                      <img src="./image/periphals/monitor1.jpg" alt="Product">
+                      <span class="discount-badge">20% Off</span>
+                      <div class="deal-info">
+                        <h3>Product Title</h3>
+                        <p>Product Description</p>
+                      </div>
+                    </div>
+                  </div>
+                
+          </section>
+
+        <!--accoceries-->
+    
+        <section class="gaming-decorations">
+            <div class="container">
+                <h2>Accessories</h2>
+                <div class="gaming-decorations-grid">
+                    <div class="gaming-item">
+                        <a href="404error.html">
+                            <img src="./image/periphals/chair.jpg" alt="Gaming Chairs">
+                            <p>Gaming Chairs</p>
+                        </a>
+                    </div>
+                    <div class="gaming-item">
+                        <a href="404error.html">
+                            <img src="./image/periphals/desk.webp" alt="Gaming Desks">
+                            <p>Lightning Clouds</p>
+                        </a>
+                    </div>
+                    <div class="gaming-item">
+                        <a href="404error.html">
+                            <img src="./image/periphals/rgbsetup.jpg" alt="RGB">
+                            <p>RGB Lights</p>
+                        </a>
+                    </div>
+                    <div class="gaming-item">
+                        <a href="404error.html">
+                            <img src="./image/periphals/mousepad.png" alt="Other Accessory">
+                            <p>Other Accessory</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="./image/logo/logo.png" alt="Gaming Logo">
+            </div>
+            <div class="footer-links">
+                <a href="404error.html">Terms & Policy</a>
+                <a href="404error.html">Privacy Policy</a>
+                <a href="404error.html">Cookie Policy</a>
+                <a href="404error.html">Contact us</a>
+            </div>
+            <div class="social-links">
+                <a href="404error.html"><i class="fab fa-twitch"></i></a>
+                <a href="404error.html"><i class="fab fa-facebook"></i></a>
+                <a href="404error.html"><i class="fab fa-twitter"></i></a>
+                <a href="404error.html"><i class="fab fa-instagram"></i></a>
+                <a href="404error.html"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2025 All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
