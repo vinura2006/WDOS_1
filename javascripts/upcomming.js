@@ -19,13 +19,13 @@
             const slidesPerView = getSlidesPerView();
             const totalSlides = Math.max(0, slides.length - slidesPerView);
             
-            // Calculate slide width including gap
+            // Calculate slide width and gap
             const slideWidth = 100 / slidesPerView;
             const offset = currentIndex * slideWidth;
             
             grid.style.transform = `translateX(-${offset}%)`;
             
-            // Update button states
+            //  button states
             prevBtn.style.opacity = currentIndex <= 0 ? '0.5' : '1';
             prevBtn.style.cursor = currentIndex <= 0 ? 'default' : 'pointer';
             nextBtn.style.opacity = currentIndex >= totalSlides ? '0.5' : '1';
