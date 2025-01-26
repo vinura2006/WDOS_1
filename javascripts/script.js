@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const slidesPerView = getSlidesPerView();
           const totalSlides = Math.max(0, slides.length - slidesPerView);
           
-          // Calculate slide width including gap
+          // Calculate slide width and gap
           const slideWidth = 100 / slidesPerView;
           const offset = currentIndex * slideWidth;
           
